@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../classwork13.11/src/css/index.css">
+    </head>
+    <form>
+        <div class="form1">
+            <input type="text" placeholder="Плейсхолдер">
+        </div>
+        <div class="form2">            
+            <input type="text" value="Value" id="Value">
+        </div>
+        <div class="form3">
+            <input type="text" value="disabled" disabled> 
+        </div>
+        <div class="form4">
+            <input type="password" value="*****">
+        </div>
+        <div class="form5">            
+            <textarea rows="3" cols="15" placeholder="Введите текст"></textarea>
+        </div>
+        <div class="form6">
+            <input type="button" value="Кнопка через тег input">
+        </div>
+        <div class="form7">
+            <button>Кнопка через тег button</button>
+        </div>
+        <div class="form8">
+            <div class="form8__1">
+                <input type="text" placeholder="Плейсхолдер" id="form8__1">
+                <label for="form8__1">Это кнопка для инпута - нажмите на меня - и инпут получит фокус</label>
+            </div>
+            <button type="submit" class="form8__button">Отправить на сервер</button>
+        </div>
+        <div class="form9">
+            <input type="checkbox" id="check">
+            <label for="check" >Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку</label>
+        </div>
+        <div class="form10">
+            <input type="checkbox" id="check2" checked>
+            <label for="check2">Я отмечен по умолчанию!</label>
+        </div>
+        <div class="form11">
+            <input type="checkbox" disabled id="check3">
+            <label for="check3">Я disabled!</label>
+        </div>
+        <div class="form12">
+            <h3>Это группа радиокнопок - только одна из них может быть отмечена</h3>
+            <div class="form12__element">
+                <input type="radio" name="answer" id="form12__element__1">
+                <label for="form12__element__1">Это метка для радио</label>
+            </div>
+            <div class="form12__element">
+                <input type="radio" name="answer" id="form12__element__2">
+                <label for="form12__element__2">Это метка для радио</label>
+            </div>
+        </div>
+    </form>    
+</html>
