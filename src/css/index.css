@@ -47,7 +47,7 @@ nav {
 nav {
     width: 1138.87px;
     height: 50px;
-    padding-left: 140px;
+    margin-left: 140px;
     display: flex;
     align-items: center;
 }
@@ -85,9 +85,98 @@ nav {
     height: 18px;
     margin-left: 22px;
 }
+.catalog {
+    display: flex;
+    width: 1140px;
+    height: 70px;
+    align-items: center; 
+    box-shadow: 0 2px 4px 0 #00000012;       
+}
+.catalog__icon {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+.catalog__icon:first-child {
+    margin-left: 40px;
+}
+.catalog__icon:last-child {
+    margin-left: 47px;
+}
+.catalog__icon__text {
+    color: #414141;
+    font-size: 16px;
+    font-family: 'Roboto Regular';
+    text-transform: capitalize;
+}
+.catalog__icon__text:nth-child(1) {
+    color: #D74444;
+    padding-bottom: 3px;    
+}
+.banner {
+    width: 1140;
+    height: 450px;
+    margin-left: 140px;
+    margin-top: 30px;
+    box-shadow: 0 5px 11px 2px #00000017;
+}
+.banner__picture {
+    background-image: url(../img/1785\ 1.png);
+    width: 1140px;
+    height: 450px;
+    background-size: cover;
+    border: none;       
+}
+.banner__text {
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.banner__text__title {
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 216px;
+    height: 106px;
+    font-family: 'PlayfairDisplaySC';
+    color: #3C3C3C;
+    margin: 0;  
+    line-height: 52.65px;   
+}
+.banner__text__main {
+    font-size: 16px;
+    color: #343434;
+    font-family: 'RobotoCondensed Light';
+    width: 280px;
+    height: 23px;
+    margin: 15px 0 0 0;
+}
+.banner__text__button {
+    background-color: #FFFFFF;
+    width: 163px;
+    height: 45px;
+    border: none;
+    margin-top: 20px;
+    color: #414141;
+    font-size: 12px;
+    font-family: 'RobotoCondensed Light';
+    line-height: 16.9px;
+    letter-spacing: 4%;
+}
 @font-face {
     font-family: "Roboto Regular"; 
     src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }   
+@font-face {
+    font-family: "PlayfairDisplaySC"; 
+    src: url("../fonts/PlayfairDisplaySC-Black.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}  
+@font-face {
+    font-family: "RobotoCondensed Light"; 
+    src: url("../fonts/RobotoCondensed-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+
