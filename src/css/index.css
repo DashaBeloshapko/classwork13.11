@@ -198,7 +198,7 @@ nav {
     position: relative;
     width: 263px;
     height: 344px;
-    margin-bottom: 53px;        
+    margin-bottom: 53px;           
 }
 .list__catalog__card__heart {
     position: absolute;
@@ -309,9 +309,52 @@ nav {
     border: none;
 }
 .list__catalog__card:hover {    
-    box-shadow: 0 1px 9px 0;
-    height: 488px;  
+    box-shadow: 0 1px 9px 0 #0000001C;        
     z-index: 1;  
+    height: 448px;
+}
+.list__catalog__card:hover .list__catalog__hide {
+    display: flex;
+}
+footer {
+    width: 1400px;
+    height: 234px;    
+}
+.footer__left{
+    margin-left: 140px;
+    width: 384px;
+    height: 148px;
+}
+.footer__left__nav {
+    width: 384px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+.footer__left__title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.74px;
+    color: #000000;
+    font-family: 'Roboto Medium';
+}
+.footer__left__nav1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.74px;
+    color: #414141;
+    font-family: 'Roboto Medium';
+}
+.footer__left_down {
+    margin-top: 34px;
+    display: flex;
+    gap: 30px;
+}
+.footer__left__nav1_r {
+    color: red;
 }
 @font-face {
     font-family: "Roboto Regular"; 
