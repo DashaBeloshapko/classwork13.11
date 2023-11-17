@@ -119,13 +119,14 @@ nav {
     margin-left: 140px;
     margin-top: 30px;
     box-shadow: 0 5px 11px 2px #00000017;
+    position: relative;   
 }
 .banner__picture {
     background-image: url(../img/1785\ 1.png);
     width: 1140px;
     height: 450px;
     background-size: cover;
-    border: none;       
+    border: none;        
 }
 .banner__text {
     padding-left: 120px;
@@ -156,10 +157,161 @@ nav {
     border: none;
     margin-top: 20px;
     color: #414141;
+    letter-spacing: 4%;
     font-size: 12px;
     font-family: 'RobotoCondensed Light';
     line-height: 16.9px;
     letter-spacing: 4%;
+    box-shadow: 0 2px 4px 0 #00000012;
+    font-weight: 700;
+}
+.banner__arrow1 {
+    position: absolute;
+    scale: -1;
+    left: 25px;
+    top: 210px;
+}
+.banner__arrow2 {
+    position: absolute;   
+    left: 1085px;
+    top: 210px; 
+}
+.list {
+    width: 1140px;    
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.list__title {    
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #414141;
+    font-weight: 400;
+    font-family: 'RobotoCondensed Light';
+}
+.list__catalog {
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 86px;
+}
+.list__catalog__card {
+    position: relative;
+    width: 263px;
+    height: 344px;
+    margin-bottom: 53px;        
+}
+.list__catalog__card__heart {
+    position: absolute;
+    left: 230px;
+    top: -11px;
+}
+.list__catalog__card__picture {
+    margin-left: 32px;
+    margin-top: 42px;
+}
+.list__catalog__card__text {
+    margin-left: 20px;
+    margin-top: 42px;
+}
+.list__catalog__card__text1 {
+    font-size: 16px;
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    line-height: 18.75px;
+    color: #414141;
+    margin: 0;
+}
+.list__catalog__card__text2 {
+    font-size: 11px;
+    font-family: 'Roboto Medium';
+    font-weight: 400;
+    line-height: 12.89px;
+    color: #414141;
+    margin: 6px 0 0 0;
+}
+.list__catalog__card__text3 {
+    font-size: 16px;
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    line-height: 18.75px;
+    color: #414141;
+    margin: 9px 0 0 0;
+}
+.list__catalog__card__sale {
+    display: flex;
+    position: absolute;
+    left: 18px;
+    top: -11px;
+    gap: 7px;
+    align-items: center;
+}
+.list__catalog__card__sale1 {
+    width: 17px;
+    height: 17px;
+}
+.list__catalog__card__sale2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    font-family: 'Roboto Medium';
+}
+.list__catalog__hide {
+    display: none;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+    gap: 17px;
+}    
+.hide__size {
+    width: 193px;
+    height: 52px;
+}
+.hide__size__block {
+    display: flex;
+    gap: 15px;
+    margin-top: 8px;
+}
+.hide__size__block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.hide__size__title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: #414141;
+    font-family: 'Roboto Medium';
+}
+.hide__size__block2 {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    color: #C4C4C4;
+    font-family: 'Roboto Medium';
+}
+.hide__size__block3 {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10.55px;
+    color: #414141;
+    font-family: 'Roboto Medium';
+}
+.list__catalog__hide__button {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    color: #FFFFFF;
+    font-family: 'Roboto Medium';
+    width: 223px;
+    height: 40px;
+    background-color: #245462;
+    border: none;
+}
+.list__catalog__card:hover {    
+    box-shadow: 0 1px 9px 0;
+    height: 488px;  
+    z-index: 1;  
 }
 @font-face {
     font-family: "Roboto Regular"; 
@@ -176,6 +328,12 @@ nav {
 @font-face {
     font-family: "RobotoCondensed Light"; 
     src: url("../fonts/RobotoCondensed-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+@font-face {
+    font-family: "Roboto Medium"; 
+    src: url("../fonts/Roboto-Medium.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }   
